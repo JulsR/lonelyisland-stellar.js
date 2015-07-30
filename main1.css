@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body { background-color:#E6E6E6;}
+
+header  { padding-top: 2px;
+		 text-align: center;}
+
+header h1 { margin-bottom: 0;
+			font-family: 'Dancing Script', cursive;
+		 	font-size: 3.8em;}
+
+header h3 {
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-size: 0.9em;}
+
+.section-demo { height: 600px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding: 20px;
+				font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+				font-size:18px;
+				font-weight:200;
+				color:#9dc66b;  }
+
+#one { width: 520px;
+	   margin-top: 100px;
+	   margin-left: 70px;
+	   font-weight: 400;}
+
+#two { margin-left: 580px;
+	   text-align: right;	}
+
+
+#three, #four {   margin-top: 55px;
+	              margin-left: 90px;
+				  padding: 20px;}
+
+#two, #three, #four p { width: 578px;
+						font-weight: 400;}
+
+#one, #two, #three, #four q {  font-size: 4.3em;}
+
+
+/* Images*/
+#one img { position: absolute;
+		   top: 1000px;
+		   width: 800px;	}
+
+#three img { position: absolute;
+			 top: 1250;	}
+
+#four img { position:absolute;
+		    top: 3700px;  }
+
+
+/*Small Birds*/
+.bg2 {
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	width: 940px;
+}
+
+.bg2-1 {
+	position: absolute;
+	top: 200px;
+	left: 500px;
+}
+
+.bg2-2 {
+	position: absolute;
+	top: 840px;
+	left: 250px;
+}
+
+.bg2-3 {
+	position: absolute;
+	top: 460px;
+	left: 130px;
+}
+
+.bg2-4 {
+	position: absolute;
+	top: 580px;
+	left: 850px;
+}
+
+/*Big Birds*/
+.bg1 {
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 940px;
+}
+
+.bg1-1 {
+	position: absolute;
+	top: 68px;
+	left: 230px;
+}
+
+.bg1-2 {
+	position: absolute;
+	top: 540px;
+	left: 750px;
+}
+
+.bg1-3 {
+	position: absolute;
+	top: 660px;
+	left: 630px;
+}
+
+.bg1-4 {
+	position: absolute;
+	top: 820px;
+	left: 287px;
+}
